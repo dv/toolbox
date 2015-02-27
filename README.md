@@ -19,6 +19,7 @@ None of the code is loaded by default. Select which classes, snippets and extens
 ```ruby
 require "toolbox/extensions/range"
 require "toolbox/utils/deepstruct"
+require "toolbox/network/wait_for_socket"
 ```
 
 # Copyright
