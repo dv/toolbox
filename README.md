@@ -18,6 +18,7 @@ None of the code is loaded by default. Select which classes, snippets and extens
 
 ```ruby
 require "toolbox/extensions/range"
+require "toolbox/extensions/string"
 require "toolbox/utils/deepstruct"
 require "toolbox/network/wait_for_socket"
 ```
@@ -25,6 +26,11 @@ require "toolbox/network/wait_for_socket"
 # Copyright
 
 Most of the code is written by me, however sometimes I add code from other open source projects, stack overflow answers, or blog posts. These may have then been further edited by me. Wherever possible I link to the inspiration or source materials, and attribute the authors here.
+
+# Changelog
+
+v0.0.3 - 29/03/2015 - Added String#colorless
+v0.0.2 - 27/02/2015 - Added Network.wait_for_socket
 
 ## Authors
 
