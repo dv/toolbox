@@ -19,6 +19,7 @@ None of the code is loaded by default. Select which classes, snippets and extens
 ```ruby
 require "toolbox/extensions/range"
 require "toolbox/extensions/string"
+require "toolbox/extensions/array"
 require "toolbox/utils/deepstruct"
 require "toolbox/network/wait_for_socket"
 ```
@@ -29,11 +30,13 @@ Most of the code is written by me, however sometimes I add code from other open 
 
 # Changelog
 
+v0.0.4 - 13/07/2015 - Added Array#start_with?
 v0.0.3 - 29/03/2015 - Added String#colorless
 v0.0.2 - 27/02/2015 - Added Network.wait_for_socket
 
 ## Authors
 
+* David Verhasselt
 * Andrea Pavoni (DeepStruct class)
 
 ## Contributing
