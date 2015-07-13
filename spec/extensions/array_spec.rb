@@ -4,6 +4,7 @@ describe Array do
 
   describe "#start_with?" do
     LIST = [1,2,3,4,5,6]
+
     MATCHES = [
       [],
       [1],
@@ -18,10 +19,7 @@ describe Array do
       LIST + [7,8,9]
     ]
 
-
-
     context "for matching lists" do
-
       MATCHES.each do |other_list|
         it "#{other_list} returns true" do
           expect(LIST.start_with?(other_list)).to be_truthy
@@ -29,15 +27,12 @@ describe Array do
       end
     end
 
-
     context "for non matching lists" do
-
       NON_MATCHES.each do |other_list|
         it "#{other_list} returns false" do
           expect(LIST.start_with?(other_list)).to be_falsy
         end
       end
-
     end
 
   end
