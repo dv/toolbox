@@ -21,6 +21,7 @@ require "toolbox/extensions/range"
 require "toolbox/extensions/string"
 require "toolbox/extensions/array"
 require "toolbox/utils/deepstruct"
+require "toolbox/utils/nested_hash"
 require "toolbox/network/wait_for_socket"
 ```
 
